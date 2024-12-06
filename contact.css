@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* position: fixed;
+    width: 100%; */
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+.logo h3{
+    padding-top: 15px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+li {
+    list-style: none;
+    font-size: 1.4em;
+}
+li a{
+    color: white;
+}
+
+/* .logo h3{
+    padding-top: 5px;
+} */
+/* .container {
+    background-color: rgb(149, 144, 154);
+    width: 800px;
+    height: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 230px;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+.container h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container h1:hover {
+    color: blue;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+.container p span:hover {
+    
+    color: black;
+
+}
+
+.container p {
+    color: black;
+    text-align: center;
+    /* margin-top: -5px; */
+    /* font-size: 2em;
+
+}
+
+.inputone {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+label {
+
+    color: black;
+    font-size: 1.9em;
+    font-weight: bold;
+}
+
+.inputone input {
+    width: 16em;
+    height: 2.5em;
+    border-radius: 15px;
+    padding-left: 16px;
+    border: none;
+    outline-color: orange;
+    background-color: lightgray;
+    box-shadow: 3px 3px 10px black;
+    font-size: 1.3em;
+
+}
+
+textarea {
+    width: 750px;
+    height: 300px;
+    background-color: lightgray;
+    outline-color: rgba(50, 34, 3, 0.916);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: none;
+    box-shadow: 3px 3px 10px black;
+    font-size: 1.3em;
+
+}
+
+.footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    height: 50vh;
+    width: 100%;
+    font-size: 10px;
+    margin-top: 50px;
+} */ */
+
+/* boooo */
+.footer h1 {
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    padding-top: 30px;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.col-4 h2 {
+    padding: 20px 0;
+}
+
+.col-4 i {
+    font-size: 30px;
+    padding: 0 5px;
+}
+
+.fa-linkedin {
+    color: blue;
+}
+
+.fa-instagram {
+    color: rgb(215, 72, 72);
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-twitter {
+    color: blue;
+}

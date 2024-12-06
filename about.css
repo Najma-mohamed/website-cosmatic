@@ -1,0 +1,142 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.header{
+    background-color:#333;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* position: fixed;
+    width: 100%; */
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.logo h3{
+    padding-top: 15px;
+    color: #ddd;
+}
+ul{
+    display: flex;
+   
+    gap:30px;
+
+}
+li{
+    list-style: none;
+    font-size: 1.4em;
+   
+}
+li a{
+    color: white;
+}
+
+
+/* About Section */
+.about {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    color: #f9f9f9;
+    font-size: 1.2em;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+.footer-right ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-right ul li a {
+    color: #f9f9f9;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.footer-right ul li a:hover {
+    color: #ddd;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 0.9em;
+    color: rgba(210, 105, 30, 0.692);
+}
+
+@media (max-width:600px){
+    .header ul{
+        display: none;
+    }
+    .footer-container{
+        display: block;
+    }
+    .footer-right ul {
+        display: block;
+    }
+}

@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* position: fixed;
+    width: 100%; */
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+ul{
+    display: flex;
+    gap:30px;
+
+}
+li{
+    list-style: none;
+    font-size: 1.4em;
+}
+li a{
+    color: white;
+}
+.logo h3{
+    padding-top: 15px;
+    color: white;
+}
+
+/* body3 */
+
+.container h1{
+    text-align: center;
+    padding: 50px;
+}
+.container span{
+   color:  rgba(114, 64, 28, 0.717);
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    padding: 10px 40px;
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+
+}
+.col-2{
+    width: 400px;
+
+}
+.col-2 img{
+    border-radius: 10px;
+}
+.col-2 img:hover{
+    border: 3px black solid;
+}
+.col-23{
+    margin-top: 5%;
+}
+
+/* body3 */
+
+.footer{
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    height: 50vh;
+    width: 100%;
+    font-size: 10px;
+    margin-top: 20px;
+    
+    
+}
+
+.footer h1{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    padding-top: 50px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+    padding: 5px 0;
+    color: white;
+}
+.col-4 h2{
+    padding: 20px 0;
+    color: white;
+}
+.col-4 i{
+    font-size: 30px;
+    padding: 0 5px;
+}
+.fa-linkedin{
+    color: blue;
+}
+.fa-instagram{
+    color: rgb(215, 72, 72);
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-twitter{
+    color:blue ;
+}
+@media (max-width:600px){
+    .header ul{
+        display: none;
+    }
+    .row{
+        display: block;
+        padding: 10%;
+    }
+    .col-2 img{
+        width: 300px;
+        
+    }
+    .flex{
+        display: block;
+        padding: 10%;
+    }
+    .row2{
+        display: block;
+    }
+    .moha{
+        margin-bottom: 20px;
+        margin-left: 10%;
+
+    }
+    .container h1{
+        
+        margin: 0;
+    }
+    .footer{
+        
+        height: 120vh;
+    }
+}

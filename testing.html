@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Collection</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container for products */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .product {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .product:hover {
+            transform: translateY(-10px);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product h2 {
+            color: #333;
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+
+        .product p {
+            color: #666;
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+
+        .product button {
+            background-color: #f9d342;
+            color: #111;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .product button:hover {
+            background-color: #e3b731;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Products Display -->
+    <div class="container">
+        <div class="product">
+            <img src="/img/3.jpg" alt="Perfume Image 1">
+            <h2>Acqua Di Gioia</h2>
+            <p>A refreshing blend of floral and citrus notes. Perfect for a serene experience.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="/img/1.jpg" alt="Perfume Image 2">
+            <h2>Coco Mademoiselle</h2>
+            <p>The epitome of chic with its oriental floral fragrance. An enduring classic.</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+   
+</body>
+</html>
